@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: rgba(255, 255, 255, 0.555);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid #f0f3f9;
+}
+
+.logo{
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(36, 214, 81);
+}

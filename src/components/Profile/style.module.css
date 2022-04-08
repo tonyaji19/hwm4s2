@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  border: none;
+  outline: none;
+  background: rgb(248, 182, 84);
+  color: white;
+  border-radius: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 0 rgb(223, 158, 61);
+  transition: all 0.2s ease-in-out;
+}
+
+.profile:hover {
+  background: rgb(206, 151, 70);
+  transition: none;
+}
+
+.profile:active {
+  box-shadow: none;
+  position: relative;
+  top: 4px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+}
+
+.profileImage img {
+  width: 100%;
+}
